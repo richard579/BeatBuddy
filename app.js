@@ -18,9 +18,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 recommendationsContainer.appendChild(newElement);
             });
         })
-        .catch(error => {
-            console.error('Error fetching the data:', error);
-        });
 
     // Function to create HTML elements for playlist
     function createPlaylistElement(playlist) {
