@@ -1,0 +1,45 @@
+{
+  "myPlaylists": [
+    {
+      "id": 1,
+      "title": "Morning Melodies",
+      "description": "Start your day with a collection of calm tunes.",
+      "cover": "https://example.com/covers/morning_melodies.jpg",
+      "songs": [
+        {
+          "id": 101,
+          "title": "Rise and Shine",
+          "artist": "Morning Beats",
+          "album": "Sunrise Serenade"
+        },
+        {
+          "id": 102,
+          "title": "New Day Dawning",
+          "artist": "Early Rhythms",
+          "album": "First Light"
+        },
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Evening Relaxation",
+      "description": "Unwind with soothing evening tracks.",
+      "cover": "https://example.com/covers/evening_relaxation.jpg",
+      "songs": [
+        {
+          "id": 201,
+          "title": "Twilight Serenade",
+          "artist": "Dusk Harmonies",
+          "album": "Eventide Echoes"
+        },
+        {
+          "id": 202,
+          "title": "Calm Nightfall",
+          "artist": "Midnight Melodies",
+          "album": "Nocturnal Lullabies"
+        },
+      ]
+    }
+  ]
+}
+

@@ -54,3 +54,51 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+    const playlistSection = document.getElementById("playlist");
+
+    // Fetch the JSON data
+    fetch('myplaylist_data.json')
+        .then(response => response.json())
+        .then(data => {
+            data.myPlaylists.forEach(playlist => {
+                const playlistElement = createPlaylistElement(playlist);
+                playlistSection.appendChild(playlistElement);
+            });
+        })
+        .catch(error => {
+            console.error('Error fetching the data:', error);
+        });
+
+    // Function to create HTML elements for playlist
+    function createPlaylistElement(playlist) {
+        const playlistContainer = document.createElement("div");
+        playlistContainer.classList.add("playlist");
+
+        const playlistTitle = document.createElement("h3");
+        playlistTitle.textContent = playlist.title;
+
+        const playlistDescription = document.createElement("p");
+        playlistDescription.textContent = playlist.description;
+
+        const playlistCover = document.createElement("img");
+        playlistCover.src = playlist.cover;
+        playlistCover.alt = playlist.title;
+
+        playlistContainer.appendChild(playlistTitle);
+        playlistContainer.appendChild(playlistDescription);
+        playlistContainer.appendChild(playlistCover);
+
+        // Creating and appending song list
+        const songList = document.createElement("ul");
+        playlist.songs.forEach(song => {
+            const songItem = document.createElement("li");
+            songItem.textContent = `${song.title} by ${song.artist} from ${song.album}`;
+            songList.appendChild(songItem);
+        });
+        playlistContainer.appendChild(songList);
+
+        return playlistContainer;
+    }
+});
+
