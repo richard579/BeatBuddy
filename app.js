@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const recommendationsContainer = document.getElementById("recommendations-container");
 
     // Fetch the JSON data
-    fetch('discovery_data.json')
+    fetch('discover_data.json')
         .then(response => response.json())
         .then(data => {
             data.recommendations.forEach(item => {
