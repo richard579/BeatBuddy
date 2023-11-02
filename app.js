@@ -68,5 +68,17 @@ document.addEventListener("DOMContentLoaded", function() {
         const newElement = createHTML(item);
         recommendationsContainer.appendChild(newElement);
     });
+
+    mockData.recommendations.forEach(item => {
+    if (item.playlist) {
+        const playlistElement = createPlaylistHTML(item.playlist);
+        recommendationsContainer.appendChild(playlistElement);
+    } else if (item.album) {
+        const albumElement = createAlbumHTML(item.album);
+        recommendationsContainer.appendChild(albumElement);
+    } else if (item.track) {
+        const trackElement = createTrackHTML(item.track);
+        recommendationsContainer.appendChild(trackElement);
+    });
 });
 
