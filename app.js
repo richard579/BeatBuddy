@@ -10,18 +10,34 @@ document.addEventListener("DOMContentLoaded", function() {
                     "cover": "https://example.com/covers/chill_vibes.jpg"
                 }
             },
-            // ... (other mock data)
+            {
+                "album": {
+                    "id": 1,
+                    "title": "Rhythmic Beats",
+                    "artist": "The Melody Makers",
+                    "cover": "https://example.com/covers/rhythmic_beats.jpg"
+                }
+            },
+            {
+                "track": {
+                    "id": 1,
+                    "title": "Sunset Serenade",
+                    "artist": "Acoustic Ensemble",
+                    "album": "Sounds of Nature",
+                    "cover": "https://example.com/covers/sunset_serenade.jpg"
+                }
+            },
+            // Include more items as needed...
         ]
     };
 
     // Access the recommendations container in the HTML
     const recommendationsContainer = document.getElementById("recommendations-container");
 
-    // Iterate through the recommendations and create HTML elements
-    mockData.recommendations.forEach(item => {
-        let newElement;
+    // Function to create HTML elements based on item type
+    function createHTML(item) {
+        let newElement = document.createElement("div");
         if (item.playlist) {
-            newElement = document.createElement("div");
             newElement.innerHTML = `
                 <div class="playlist">
                     <img src="${item.playlist.cover}" alt="${item.playlist.title}">
@@ -30,7 +46,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 </div>
             `;
         } else if (item.album) {
-            newElement = document.createElement("div");
             newElement.innerHTML = `
                 <div class="album">
                     <img src="${item.album.cover}" alt="${item.album.title}">
@@ -38,7 +53,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 </div>
             `;
         } else if (item.track) {
-            newElement = document.createElement("div");
             newElement.innerHTML = `
                 <div class="track">
                     <img src="${item.track.cover}" alt="${item.track.title}">
@@ -46,6 +60,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 </div>
             `;
         }
+        return newElement;
+    }
+
+    // Iterate through the recommendations and append HTML elements to the container
+    mockData.recommendations.forEach(item => {
+        const newElement = createHTML(item);
         recommendationsContainer.appendChild(newElement);
     });
 });
