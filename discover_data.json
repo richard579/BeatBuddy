@@ -5,7 +5,8 @@
         "id": 1,
         "title": "Chill Vibes",
         "description": "Relaxing tunes for a laid-back day.",
-        "cover": "static/images/person-car-cloud-sunset.jpg"
+        "cover": "static/images/person-car-cloud-sunset.jpg",
+	"size": "medium"
       }
     },
     {
