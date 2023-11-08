@@ -51,36 +51,3 @@
     <script src="app.js"></script> <!-- Link your JavaScript file -->
 </body>
 </html>
-
-<html>
-<head>
-    <title>Image Sizes Example</title>
-</head>
-<body>
-    <div id="imageContainer"></div>
-
-    <script>
-        // Assume 'jsonData' is the JSON object retrieved or defined
-
-        // Reference to the image container in the HTML
-        const imageContainer = document.getElementById("imageContainer");
-
-        // Loop through the JSON data and create img elements
-        discover_data.json.images.forEach(image => {
-            const img = document.createElement("img");
-            img.src = image.url;
-
-            // Check the size attribute from JSON and set width accordingly
-            if (image.size === "medium") {
-                img.style.width = "300px"; // Adjust this value for your medium size
-            } else if (image.size === "small") {
-                img.style.width = "150px"; // Adjust this value for your small size
-            }
-            // Add more conditions as needed for different sizes
-
-            // Append the image to the container
-            imageContainer.appendChild(img);
-        });
-    </script>
-</body>
-</html>
