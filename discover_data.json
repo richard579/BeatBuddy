@@ -22,7 +22,7 @@
         "title": "Sunset Serenade",
         "artist": "Acoustic Ensemble",
         "album": "Sounds of Nature",
-        "cover": "https://example.com/covers/sunset_serenade.jpg"
+        "cover": "static/images/sunset seranade.jpg"
       }
     },
     {
@@ -30,7 +30,7 @@
         "id": 2,
         "title": "Evening Chill",
         "description": "Unwind with mellow melodies.",
-        "cover": "https://example.com/covers/evening_chill.jpg"
+        "cover": "static/images/picjumbo-evening-chill-premium-collection.jpg"
       }
     },
     {
@@ -38,7 +38,7 @@
         "id": 2,
         "title": "Jazz Cafe",
         "artist": "Smooth Ensemble",
-        "cover": "https://example.com/covers/jazz_cafe.jpg"
+        "cover": "static/images/jazz-restaurantcrop-minfinfin.jpg"
       }
     },
     {
@@ -47,7 +47,7 @@
         "title": "Moonlit Sonata",
         "artist": "Piano Virtuoso",
         "album": "Classical Echoes",
-        "cover": "https://example.com/covers/moonlit_sonata.jpg"
+        "cover": "static/images/beethoven-moonlight-sonata-1606140202-list-handheld-0.jpg"
       }
     }
   ]
