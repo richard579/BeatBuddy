@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Morning Melodies",
       "description": "Start your day with a collection of calm tunes.",
-      "cover": "https://example.com/covers/morning_melodies.jpg",
+      "cover": "static/images/Morning-melodies-wyndham-1024x683.jpeg",
       "songs": [
         {
           "id": 101,
@@ -24,7 +24,7 @@
       "id": 2,
       "title": "Evening Relaxation",
       "description": "Unwind with soothing evening tracks.",
-      "cover": "https://example.com/covers/evening_relaxation.jpg",
+      "cover": "static/images/evening-yoga.jpg",
       "songs": [
         {
           "id": 201,
