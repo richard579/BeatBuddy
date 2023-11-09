@@ -38,8 +38,6 @@ a.project-link {
     padding: 100px 0;
 }
 
-/* ... Previous CSS ... */
-
 .features {
     display: flex;
     justify-content: space-around;
