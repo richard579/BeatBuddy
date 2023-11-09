@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+a.project-link {
+    display: inline-block;
+    padding: 8px 20px;
+    text-decoration: none;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.intro-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.other-section {
+    padding: 100px 0;
+}
+
