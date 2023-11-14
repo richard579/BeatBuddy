@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- Set the title of the page -->
     <title>BeatBuddy Music Player</title>
 </head>
 <body>
+	<!-- Heading for the music player -->
     <h1>BeatBuddy Music Player</h1>
+
+    <!-- Playlist with songs, using data-src attribute for audio sources -->
     <ul id="playlist">
         <li data-src="discover_data.json/Sunset Serenade.mp3">Song 1</li>
         <li data-src="discover_data.json/Moonlit Sonata.mp3">Song 2</li>
         <!-- Add more songs -->
     </ul>
+
+    <!-- Audio element for music playback, initially displaying a message if the browser doesn't support audio -->
     <audio id="audio" controls>
         Your browser does not support the audio element.
     </audio>
 
+    <!-- Include external JavaScript file for handling music player functionality -->
     <script src="scripts.js"></script>
 </body>
 </html>
