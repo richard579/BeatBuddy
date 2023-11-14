@@ -1,8 +1,10 @@
+/* Reset default margin and set a default font for the body */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
+/* Styling for the header section */
 header {
     background: #333;
     color: white;
@@ -10,16 +12,19 @@ header {
     text-align: center;
 }
 
+/* Styling for navigation unordered list */
 nav ul {
     list-style: none;
     padding: 0;
 }
 
+/* Styling for navigation list items */
 nav ul li {
     display: inline;
     margin: 0 10px;
 }
 
+/* Styling for the project link button */
 a.project-link {
     display: inline-block;
     padding: 8px 20px;
@@ -29,15 +34,18 @@ a.project-link {
     border-radius: 5px;
 }
 
+/* Styling for the introduction section */
 .intro-section {
     text-align: center;
     padding: 50px 0;
 }
 
+/* Styling for other sections (not explicitly defined) */
 .other-section {
     padding: 100px 0;
 }
 
+/* Styling for the features section */
 .features {
     display: flex;
     justify-content: space-around;
@@ -45,6 +53,7 @@ a.project-link {
     padding: 50px 0;
 }
 
+/* Styling for individual features */
 .feature {
     text-align: center;
     width: 30%;
@@ -54,6 +63,7 @@ a.project-link {
     margin: 10px;
 }
 
+/* Styling for feature images */
 .feature img {
     width: 100%;
     border-radius: 5px;
