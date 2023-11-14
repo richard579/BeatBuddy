@@ -2,6 +2,10 @@
 
 Welcome to BeatBuddy, a music recommender system designed to help users discover and explore new music based on their preferences.
 
+## Introduction
+
+https://htmlpreview.github.io/?https://github.com/richard579/BeatBuddy/blob/master/index.html
+
 ## Overview
 
 BeatBuddy uses advanced algorithms and user interaction data to recommend personalized playlists, albums, and songs to users. It employs machine learning techniques to analyze user preferences, listening habits, and music features, offering tailored recommendations for an enhanced music discovery experience.

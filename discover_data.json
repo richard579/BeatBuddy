@@ -1,6 +1,5 @@
 {
   "recommendations": [
-	  // Recommendation 1: Playlist - Chill Vibes
     {
       "playlist": {
         "id": 1,
@@ -9,7 +8,6 @@
         "cover": "static/images/person-car-cloud-sunset.jpg"
       }
     },
-    // Recommendation 2: Album - Rhythmic Beats
     {
       "album": {
         "id": 1,
@@ -18,7 +16,6 @@
         "cover": "static/images/rhythmic beats.jpeg"
       }
     },
-    // Recommendation 3: Track - Sunset Serenade
     {
       "track": {
         "id": 1,
@@ -28,7 +25,6 @@
         "cover": "static/images/sunset seranade.jpg"
       }
     },
-    // Recommendation 4: Playlist - Evening Chill
     {
       "playlist": {
         "id": 2,
@@ -37,7 +33,6 @@
         "cover": "static/images/picjumbo-evening-chill-premium-collection.jpg"
       }
     },
-    // Recommendation 5: Album - Jazz Cafe
     {
       "album": {
         "id": 2,
@@ -46,7 +41,6 @@
         "cover": "static/images/jazz-restaurantcrop-minfinfin.jpg"
       }
     },
-    // Recommendation 6: Track - Moonlit Sonata
     {
       "track": {
         "id": 2,

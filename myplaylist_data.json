@@ -1,20 +1,17 @@
 {
   "myPlaylists": [
-	  // Playlist 1: Morning Melodies
     {
       "id": 1,
       "title": "Morning Melodies",
       "description": "Start your day with a collection of calm tunes.",
       "cover": "static/images/Morning-melodies-wyndham-1024x683.jpeg",
       "songs": [
-	// Song 1: Rise and Shine
         {
           "id": 101,
           "title": "Rise and Shine",
           "artist": "Morning Beats",
           "album": "Sunrise Serenade"
         },
-	// Song 2: New Day Dawning
         {
           "id": 102,
           "title": "New Day Dawning",
@@ -23,21 +20,18 @@
         }
       ]
     },
-    // Playlist 2: Evening Relaxation
     {
       "id": 2,
       "title": "Evening Relaxation",
       "description": "Unwind with soothing evening tracks.",
       "cover": "static/images/evening-yoga.jpg",
       "songs": [
-	// Song 1: Twilight Serenade
         {
           "id": 201,
           "title": "Twilight Serenade",
           "artist": "Dusk Harmonies",
           "album": "Eventide Echoes"
         },
-	// Song 2: Calm Nightfall
         {
           "id": 202,
           "title": "Calm Nightfall",
