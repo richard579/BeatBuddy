@@ -6,6 +6,7 @@ Welcome to BeatBuddy, a music recommender system designed to help users discover
 
 ## Introduction
 
+https://medium.com/@richardbeng357/unveiling-beatbuddy-a-symphony-of-personalized-music-exploration-76218d84e5a9
 https://htmlpreview.github.io/?https://github.com/richard579/BeatBuddy/blob/master/index.html
 https://htmlpreview.github.io/?https://github.com/richard579/BeatBuddy/blob/master/landing_page.html
 https://www.linkedin.com/in/richard-bengtson-253814270
