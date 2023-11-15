@@ -2,7 +2,7 @@
 
 Welcome to BeatBuddy, a music recommender system designed to help users discover and explore new music based on their preferences.
 
-![Project Logo](https://github.com/richard579/BeatBuddy/static/images/Screenshot (13).png)
+![Project Logo](https://github.com/richard579/BeatBuddy/blob/master/static/images/Screenshot%20(13).png)
 
 ## Introduction
 
